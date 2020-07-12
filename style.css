@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.heading h1{
+    background-color: gray;
+}
+
+
+.cant{
+    margin: 100px auto;
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    background-color: black;
+}
+
+
+.display h1{
+    border-radius: 10px;
+    font-size: 3em;
+    margin: 70px 5px 30px 5px;
+    display: inline-block;
+    width: 50px;
+    background-color: gray;
+}
+
+
+button{
+    padding: 8px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 1em;
+}
