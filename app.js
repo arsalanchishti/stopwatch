@@ -23,11 +23,15 @@ function timer(){
 
 function start(){
     interval = setInterval(timer,10)
+    var btn = document.getElementById('startbtn')
+    btn.disabled = true
 }
 
 
 function stop(){
     clearInterval(interval)
+    var btn = document.getElementById('startbtn')
+    btn.disabled = false
 }
 
 function reset(){
